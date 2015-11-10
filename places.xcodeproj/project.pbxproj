@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		581647F51BEC1BB900D1C3E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 581647F41BEC1BB900D1C3E5 /* main.m */; };
 		581647F81BEC1BB900D1C3E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 581647F71BEC1BB900D1C3E5 /* AppDelegate.m */; };
-		581647FB1BEC1BB900D1C3E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581647FA1BEC1BB900D1C3E5 /* ViewController.m */; };
+		581647FB1BEC1BB900D1C3E5 /* PlacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581647FA1BEC1BB900D1C3E5 /* PlacesViewController.m */; };
 		581647FE1BEC1BB900D1C3E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581647FC1BEC1BB900D1C3E5 /* Main.storyboard */; };
 		581648001BEC1BB900D1C3E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 581647FF1BEC1BB900D1C3E5 /* Assets.xcassets */; };
 		581648031BEC1BB900D1C3E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581648011BEC1BB900D1C3E5 /* LaunchScreen.storyboard */; };
 		5816480E1BEC1BB900D1C3E5 /* placesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5816480D1BEC1BB900D1C3E5 /* placesTests.m */; };
 		581648191BEC1BB900D1C3E5 /* placesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 581648181BEC1BB900D1C3E5 /* placesUITests.m */; };
+		581648281BEC1D4800D1C3E5 /* PlacesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581648271BEC1D4800D1C3E5 /* PlacesDetailViewController.m */; };
+		5816482C1BEC1F5600D1C3E5 /* PlacesInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5816482B1BEC1F5600D1C3E5 /* PlacesInfo.m */; };
+		5816482F1BEC253700D1C3E5 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 5816482E1BEC253700D1C3E5 /* Place.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,8 @@
 		581647F41BEC1BB900D1C3E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		581647F61BEC1BB900D1C3E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		581647F71BEC1BB900D1C3E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		581647F91BEC1BB900D1C3E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		581647FA1BEC1BB900D1C3E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		581647F91BEC1BB900D1C3E5 /* PlacesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlacesViewController.h; sourceTree = "<group>"; };
+		581647FA1BEC1BB900D1C3E5 /* PlacesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlacesViewController.m; sourceTree = "<group>"; };
 		581647FD1BEC1BB900D1C3E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		581647FF1BEC1BB900D1C3E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		581648021BEC1BB900D1C3E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,12 @@
 		581648141BEC1BB900D1C3E5 /* placesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = placesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		581648181BEC1BB900D1C3E5 /* placesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = placesUITests.m; sourceTree = "<group>"; };
 		5816481A1BEC1BB900D1C3E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		581648261BEC1D4800D1C3E5 /* PlacesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesDetailViewController.h; sourceTree = "<group>"; };
+		581648271BEC1D4800D1C3E5 /* PlacesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesDetailViewController.m; sourceTree = "<group>"; };
+		5816482A1BEC1F5600D1C3E5 /* PlacesInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesInfo.h; sourceTree = "<group>"; };
+		5816482B1BEC1F5600D1C3E5 /* PlacesInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesInfo.m; sourceTree = "<group>"; };
+		5816482D1BEC253700D1C3E5 /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		5816482E1BEC253700D1C3E5 /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +112,14 @@
 			children = (
 				581647F61BEC1BB900D1C3E5 /* AppDelegate.h */,
 				581647F71BEC1BB900D1C3E5 /* AppDelegate.m */,
-				581647F91BEC1BB900D1C3E5 /* ViewController.h */,
-				581647FA1BEC1BB900D1C3E5 /* ViewController.m */,
+				581647F91BEC1BB900D1C3E5 /* PlacesViewController.h */,
+				581647FA1BEC1BB900D1C3E5 /* PlacesViewController.m */,
+				581648261BEC1D4800D1C3E5 /* PlacesDetailViewController.h */,
+				581648271BEC1D4800D1C3E5 /* PlacesDetailViewController.m */,
+				5816482A1BEC1F5600D1C3E5 /* PlacesInfo.h */,
+				5816482B1BEC1F5600D1C3E5 /* PlacesInfo.m */,
+				5816482D1BEC253700D1C3E5 /* Place.h */,
+				5816482E1BEC253700D1C3E5 /* Place.m */,
 				581647FC1BEC1BB900D1C3E5 /* Main.storyboard */,
 				581647FF1BEC1BB900D1C3E5 /* Assets.xcassets */,
 				581648011BEC1BB900D1C3E5 /* LaunchScreen.storyboard */,
@@ -273,8 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				581647FB1BEC1BB900D1C3E5 /* ViewController.m in Sources */,
+				581647FB1BEC1BB900D1C3E5 /* PlacesViewController.m in Sources */,
+				581648281BEC1D4800D1C3E5 /* PlacesDetailViewController.m in Sources */,
 				581647F81BEC1BB900D1C3E5 /* AppDelegate.m in Sources */,
+				5816482F1BEC253700D1C3E5 /* Place.m in Sources */,
+				5816482C1BEC1F5600D1C3E5 /* PlacesInfo.m in Sources */,
 				581647F51BEC1BB900D1C3E5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
